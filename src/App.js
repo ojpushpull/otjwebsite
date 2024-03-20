@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import SimpleContainer from './components/SimpleContainer';
+import ColumnsGrid from './components/Grid';
+
 
 function App() {
   return (
+    
     <div className="App">
+      <SimpleContainer> HELLO</SimpleContainer>
+      <ColumnsGrid>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
+      </ColumnsGrid>
     </div>
   );
 }
