@@ -4,6 +4,7 @@ import SimpleContainer from './components/SimpleContainer';
 import ColumnsGrid from './components/SummaryGrid';
 import Types from './components/Text';
 import { Item } from './components/SummaryGrid';
+import ColumnsGrid2 from './components/SecondGrid';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     
     <div className="App">
       <SimpleContainer> HELLO</SimpleContainer>
-      <ColumnsGrid >  </ColumnsGrid>
+      <ColumnsGrid>  </ColumnsGrid>
+      <ColumnsGrid2></ColumnsGrid2>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
